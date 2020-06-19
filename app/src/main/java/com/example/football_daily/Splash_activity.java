@@ -1,10 +1,9 @@
-package com.example.football_daily_2;
+package com.example.football_daily;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Handler;
 import android.os.Bundle;
-import android.view.WindowManager;
 
 public class Splash_activity extends Activity {
 

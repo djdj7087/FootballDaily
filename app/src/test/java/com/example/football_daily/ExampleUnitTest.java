@@ -1,4 +1,4 @@
-package com.example.football_daily_2;
+package com.example.football_daily;
 
 import org.junit.Test;
 

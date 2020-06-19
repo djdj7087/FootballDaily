@@ -1,4 +1,4 @@
-package com.example.football_daily_2;
+package com.example.football_daily;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,20 +8,20 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-import com.example.football_daily_2.community.community_activity;
-import com.example.football_daily_2.home.home_activity;
-import com.example.football_daily_2.news.news_activity;
-import com.example.football_daily_2.setting.setting_activity;
+import com.example.football_daily.community.community_activity;
+import com.example.football_daily.home.home_activity;
+import com.example.football_daily.news.news_activity;
+import com.example.football_daily.setting.setting_activity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
     private back_press_handler_activity backPressHandlerActivity;
     private TextView mTextMessage;
 
-    private com.example.football_daily_2.home.home_activity home_activity = new home_activity();
-    private com.example.football_daily_2.news.news_activity news_activity = new news_activity();
-    private com.example.football_daily_2.community.community_activity community_activity = new community_activity();
-    private com.example.football_daily_2.setting.setting_activity setting_activity = new setting_activity();
+    private com.example.football_daily.home.home_activity home_activity = new home_activity();
+    private com.example.football_daily.news.news_activity news_activity = new news_activity();
+    private com.example.football_daily.community.community_activity community_activity = new community_activity();
+    private com.example.football_daily.setting.setting_activity setting_activity = new setting_activity();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

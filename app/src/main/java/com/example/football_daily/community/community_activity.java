@@ -1,4 +1,4 @@
-package com.example.football_daily_2.community;
+package com.example.football_daily.community;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,12 +12,10 @@ import android.widget.Button;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
-import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.football_daily_2.R;
-import com.example.football_daily_2.home.home_list_adapter;
+import com.example.football_daily.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;

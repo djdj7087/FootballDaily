@@ -1,4 +1,4 @@
-package com.example.football_daily_2.news;
+package com.example.football_daily.news;
 
 public class news_listItem_activity {
         private String news_title, news_url;

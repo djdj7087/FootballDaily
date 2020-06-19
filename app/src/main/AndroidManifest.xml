@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
-    package="com.example.football_daily_2">
+    package="com.example.football_daily">
 
     <dist:module dist:instant="true" />
 
@@ -14,20 +14,20 @@
         android:label="Football Daily"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Splash_activity">
+        <activity android:name="com.example.football_daily.Splash_activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".login_activity" />
-        <activity android:name=".Register_activity" />
+        <activity android:name="com.example.football_daily.login_activity" />
+        <activity android:name="com.example.football_daily.Register_activity" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.football_daily.MainActivity"
             android:windowSoftInputMode="adjustPan" />
-        <activity android:name=".community.community_content_activity"/>
-        <activity android:name=".community.community_write_activity"/>
+        <activity android:name="com.example.football_daily.community.community_content_activity"/>
+        <activity android:name="com.example.football_daily.community.community_write_activity"/>
     </application>
 
 </manifest>

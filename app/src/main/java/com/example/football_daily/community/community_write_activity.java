@@ -1,24 +1,19 @@
-package com.example.football_daily_2.community;
+package com.example.football_daily.community;
 
 import android.app.Activity;
-import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
 
-import com.example.football_daily_2.R;
-import com.example.football_daily_2.community.community_activity;
+import com.example.football_daily.R;
 
 import java.io.BufferedReader;
 import java.io.IOException;

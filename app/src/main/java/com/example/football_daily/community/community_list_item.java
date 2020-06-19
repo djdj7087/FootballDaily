@@ -1,4 +1,4 @@
-package com.example.football_daily_2.community;
+package com.example.football_daily.community;
 
 public class community_list_item {
     private String number, title, name, time, content;

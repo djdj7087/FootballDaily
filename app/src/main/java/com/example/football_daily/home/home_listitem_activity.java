@@ -1,4 +1,4 @@
-package com.example.football_daily_2.home;
+package com.example.football_daily.home;
 
 public class home_listitem_activity {
     private String team1_str = "";

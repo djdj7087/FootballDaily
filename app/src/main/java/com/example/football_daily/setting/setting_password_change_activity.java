@@ -1,4 +1,4 @@
-package com.example.football_daily_2.setting;
+package com.example.football_daily.setting;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -15,7 +15,7 @@ import android.widget.Toast;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.example.football_daily_2.R;
+import com.example.football_daily.R;
 
 import java.io.BufferedReader;
 import java.io.IOException;

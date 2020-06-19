@@ -1,4 +1,4 @@
-package com.example.football_daily_2.home;
+package com.example.football_daily.home;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -6,20 +6,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.football_daily_2.R;
+import com.example.football_daily.R;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 
 public class home_list_adapter extends RecyclerView.Adapter<home_list_adapter.ViewHolder> {
     private Activity activity = null;

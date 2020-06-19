@@ -1,4 +1,4 @@
-package com.example.football_daily_2.setting;
+package com.example.football_daily.setting;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,9 +10,8 @@ import android.widget.Button;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.example.football_daily_2.R;
-import com.example.football_daily_2.community.community_write_activity;
-import com.example.football_daily_2.login_activity;
+import com.example.football_daily.R;
+import com.example.football_daily.login_activity;
 
 public class setting_activity extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

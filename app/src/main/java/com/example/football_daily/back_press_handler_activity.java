@@ -1,9 +1,8 @@
-package com.example.football_daily_2;
+package com.example.football_daily;
 
 import android.app.Activity;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
 public class back_press_handler_activity {

@@ -1,18 +1,15 @@
-package com.example.football_daily_2.community;
+package com.example.football_daily.community;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
 
-import com.example.football_daily_2.R;
+import com.example.football_daily.R;
 import java.util.Calendar;
 
 public class community_content_activity extends Activity {

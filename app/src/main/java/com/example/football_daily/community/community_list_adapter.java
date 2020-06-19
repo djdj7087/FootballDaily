@@ -1,25 +1,20 @@
-package com.example.football_daily_2.community;
+package com.example.football_daily.community;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.football_daily_2.R;
+import com.example.football_daily.R;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 
 public class community_list_adapter extends RecyclerView.Adapter<community_list_adapter.ViewHolder> {
     private Activity activity;

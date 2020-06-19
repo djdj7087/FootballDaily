@@ -1,10 +1,9 @@
-package com.example.football_daily_2.news;
+package com.example.football_daily.news;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -13,10 +12,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.football_daily_2.R;
-import com.example.football_daily_2.community.community_content_activity;
-import com.example.football_daily_2.home.home_list_adapter;
-import com.example.football_daily_2.home.home_listitem_activity;
+import com.example.football_daily.R;
 
 import java.util.ArrayList;
 

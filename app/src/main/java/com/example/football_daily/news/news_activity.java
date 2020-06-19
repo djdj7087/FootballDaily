@@ -1,4 +1,4 @@
-package com.example.football_daily_2.news;
+package com.example.football_daily.news;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -12,7 +12,7 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.football_daily_2.R;
+import com.example.football_daily.R;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
